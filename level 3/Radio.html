@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio</title>
+</head>
+<body>
+    <form action="/server">
+        <lable for="one">name</lable>
+        <input type="text" id="one" name="NAME" placeholder="enter name">
+        
+
+        <input type="radio" id="two" name="fruit" value="apple">
+        <lable for="two">apple</lable>
+
+        <input type="radio" id="tw" name="fruit" value="mango">
+        <lable for="tw">mango</lable>
+
+        <input type="radio" id="twe" name="froot" value="banana">
+        <lable for="twe">banana</lable>
+
+        <!-- because name attribute mai alag value hea -->
+
+        <button type="submit">submit</button>
+
+        <hr>
+
+        <button type="reset">reset</button>
+    </form>
+    <hr>
+
+    <form action="/server">
+        <div>
+            <input type="checkbox" id="check" name="checkbox" value="yes">
+            <label for="check">18+</label>
+
+            <input type="checkbox" id="chec" name="checkbox" value="yes">
+            <lable for="chec" >18-</lable>
+
+            <button>submit</button>
+            <button type="reset">reset</button>
+
+        </div>
+    </form>
+</body>
+</html>
